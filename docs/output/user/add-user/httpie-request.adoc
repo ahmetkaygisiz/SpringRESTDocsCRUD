@@ -1,0 +1,5 @@
+[source,bash]
+----
+$ echo '{"id":null,"username":"test","email":"test@tim.com","firstName":"mest","lastName":"oldum","phoneNumber":"1231231222"}' | http POST 'http://localhost:8080/api/user' \
+    'Content-Type:application/json'
+----

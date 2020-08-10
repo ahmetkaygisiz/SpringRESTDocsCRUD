@@ -1,0 +1,4 @@
+[source,options="nowrap"]
+----
+[{"id":1,"username":"akua","email":"ahmetkaygisiz@gmail.com","firstName":"ahme","lastName":"ka","phoneNumber":"1231231212"},{"id":2,"username":"ake","email":"ake@gmail.com","firstName":"ae","lastName":"kawq","phoneNumber":"asdfasfwe"},{"id":4,"username":"dejas","email":"ahme@gmail.com","firstName":"hm","lastName":"kasqwe","phoneNumber":"1231231212"},{"id":5,"username":"test","email":"test@tim.com","firstName":"mest","lastName":"oldum","phoneNumber":"1231231222"},{"id":6,"username":"test","email":"test@tim.com","firstName":"mest","lastName":"oldum","phoneNumber":"1231231222"}]
+----

@@ -1,0 +1,124 @@
+= User CRUD REST Service API Guide
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: right
+:toclevels: 4
+:sectlinks:
+:sourcedir: ../../docs/output
+DocWriter : <ahmetkaygisiz17@gmail.com>
+
+== User CRUD Rest Service
+This REST API developed by Ahmet Kaygisiz for learning Tutorial Spring Boot Rest Docs. RestDocsTutorial has following functions.
+
+=== Get All Users
+
+[%collapsible]
+====
+*Curl*
+include::{sourcedir}/user/get-all-users/curl-request.adoc[]
+
+*HTTP Request*
+include::{sourcedir}/user/get-all-users/http-request.adoc[]
+
+
+*HTTP Response*
+include::{sourcedir}/user/get-all-users/http-response.adoc[]
+
+*HTTPIE Request*
+include::{sourcedir}/user/get-all-users/httpie-request.adoc[]
+
+*Request Body*
+include::{sourcedir}/user/get-all-users/request-body.adoc[]
+
+*Response Body*
+include::{sourcedir}/user/get-all-users/response-body.adoc[]
+====
+
+=== Get User By ID
+[%collapsible]
+====
+*Curl*
+include::{sourcedir}/user/get-user-by-id/curl-request.adoc[]
+
+*HTTP Request*
+include::{sourcedir}/user/get-user-by-id/http-request.adoc[]
+
+*HTTP Response*
+include::{sourcedir}/user/get-user-by-id/http-response.adoc[]
+
+*HTTPIE Request*
+include::{sourcedir}/user/get-user-by-id/httpie-request.adoc[]
+
+*Request Body*
+include::{sourcedir}/user/get-user-by-id/request-body.adoc[]
+
+*Response Body*
+include::{sourcedir}/user/get-user-by-id/response-body.adoc[]
+====
+
+=== Delete User By Username
+[%collapsible]
+====
+*Curl*
+include::{sourcedir}/user/delete-user-by-username/curl-request.adoc[]
+
+*HTTP Request*
+include::{sourcedir}/user/delete-user-by-username/http-request.adoc[]
+
+*HTTP Response*
+include::{sourcedir}/user/delete-user-by-username/http-response.adoc[]
+
+*HTTPIE Request*
+include::{sourcedir}/user/delete-user-by-username/httpie-request.adoc[]
+
+*Request Body*
+include::{sourcedir}/user/delete-user-by-username/request-body.adoc[]
+
+*Response Body*
+include::{sourcedir}/user/delete-user-by-username/response-body.adoc[]
+====
+
+=== Add User
+[%collapsible]
+====
+*Curl*
+include::{sourcedir}/user/add-user/curl-request.adoc[]
+
+*HTTP Request*
+include::{sourcedir}/user/add-user/http-request.adoc[]
+
+*HTTP Response*
+include::{sourcedir}/user/add-user/http-response.adoc[]
+
+*HTTPIE Request*
+include::{sourcedir}/user/add-user/httpie-request.adoc[]
+
+*Request Body*
+include::{sourcedir}/user/add-user/request-body.adoc[]
+
+*Response Body*
+include::{sourcedir}/user/add-user/response-body.adoc[]
+====
+
+=== Update User
+[%collapsible]
+====
+*Curl*
+include::{sourcedir}/user/update-user-by-id/curl-request.adoc[]
+
+*HTTP Request*
+include::{sourcedir}/user/update-user-by-id/http-request.adoc[]
+
+*HTTP Response*
+include::{sourcedir}/user/update-user-by-id/http-response.adoc[]
+
+*HTTPIE Request*
+include::{sourcedir}/user/update-user-by-id/httpie-request.adoc[]
+
+*Request Body*
+include::{sourcedir}/user/update-user-by-id/request-body.adoc[]
+
+*Response Body*
+include::{sourcedir}/user/update-user-by-id/response-body.adoc[]
+====

@@ -1,0 +1,4 @@
+[source,options="nowrap"]
+----
+{"id":1,"username":"akua","email":"ahmetkaygisiz@gmail.com","firstName":"ahme","lastName":"ka","phoneNumber":"1231231212"}
+----
