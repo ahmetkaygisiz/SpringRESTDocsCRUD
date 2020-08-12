@@ -1,5 +1,5 @@
 [source,bash]
 ----
-$ echo '{"id":null,"username":"test","email":"test@tim.com","firstName":"mest","lastName":"oldum","phoneNumber":"1231231222"}' | http PUT 'http://localhost:8080/api/user/5' \
+$ echo '{"id":5,"username":"test","email":"test@tim.com","firstName":"mest","lastName":"oldum","phoneNumber":"1231231222"}' | http PUT 'http://localhost:8080/api/user/5' \
     'Content-Type:application/json'
 ----

@@ -66,8 +66,8 @@ public class UserControllerTest {
     public void getUserById() throws Exception{
         this.mockMvc.perform(get("/api/user/1")
                 .accept(MediaType.APPLICATION_JSON))
-                .andDo(MockMvcResultHandlers.print())
                 .andExpect(status().isOk())
+                .andDo(MockMvcResultHandlers.print())
                 .andDo(document("user/get-user-by-id"));
     }
 
@@ -101,6 +101,7 @@ public class UserControllerTest {
     @Test
     public void updateUser() throws Exception{
         User u1 = new User();
+        u1.setId(5L);
         u1.setUsername("test");
         u1.setEmail("test@tim.com");
         u1.setFirstName("mest");

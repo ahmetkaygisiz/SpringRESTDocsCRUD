@@ -716,7 +716,7 @@ Host: localhost:8080
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ curl 'http://localhost:8080/api/user/5' -i -X PUT \
     -H 'Content-Type: application/json' \
-    -d '{"id":null,"username":"test","email":"test@tim.com","firstName":"mest","lastName":"oldum","phoneNumber":"1231231222"}'</code></pre>
+    -d '{"id":5,"username":"test","email":"test@tim.com","firstName":"mest","lastName":"oldum","phoneNumber":"1231231222"}'</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -726,10 +726,10 @@ Host: localhost:8080
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">PUT /api/user/5 HTTP/1.1
 Content-Type: application/json
-Content-Length: 117
+Content-Length: 114
 Host: localhost:8080
 
-{"id":null,"username":"test","email":"test@tim.com","firstName":"mest","lastName":"oldum","phoneNumber":"1231231222"}</code></pre>
+{"id":5,"username":"test","email":"test@tim.com","firstName":"mest","lastName":"oldum","phoneNumber":"1231231222"}</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -745,7 +745,7 @@ Host: localhost:8080
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ echo '{"id":null,"username":"test","email":"test@tim.com","firstName":"mest","lastName":"oldum","phoneNumber":"1231231222"}' | http PUT 'http://localhost:8080/api/user/5' \
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ echo '{"id":5,"username":"test","email":"test@tim.com","firstName":"mest","lastName":"oldum","phoneNumber":"1231231222"}' | http PUT 'http://localhost:8080/api/user/5' \
     'Content-Type:application/json'</code></pre>
 </div>
 </div>
@@ -754,7 +754,7 @@ Host: localhost:8080
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight nowrap"><code>{"id":null,"username":"test","email":"test@tim.com","firstName":"mest","lastName":"oldum","phoneNumber":"1231231222"}</code></pre>
+<pre class="highlightjs highlight nowrap"><code>{"id":5,"username":"test","email":"test@tim.com","firstName":"mest","lastName":"oldum","phoneNumber":"1231231222"}</code></pre>
 </div>
 </div>
 <div class="paragraph">
